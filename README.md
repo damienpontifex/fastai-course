@@ -6,4 +6,6 @@ Following on from the [fast.ai](http://course.fast.ai) course and course materia
 
 ## Repository Purpose
 
-The purpose of this repository is to start from a blank point and reproduce experiments and problems presented in the course. This is to reinforce the learning and make my own mistakes while not just running and copying existing course code.
+The purpose of this repository is to start from a blank point and reproduce experiments and problems presented in the course. This is to reinforce the learning and make my own mistakes while not just running and copying existing course code. 
+
+I will also be using Tensoflow as the framework for implementations
