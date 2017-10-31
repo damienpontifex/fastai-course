@@ -7,10 +7,10 @@ RUN echo "deb [arch=amd64] http://storage.googleapis.com/tensorflow-serving-apt 
 RUN curl https://storage.googleapis.com/tensorflow-serving-apt/tensorflow-serving.release.pub.gpg | apt-key add -
 
 RUN apt-get update && apt-get install -y \
-        tensorflow-model-server
-    #     && \
-    # apt-get clean && \
-    # rm -rf /var/lib/apt/lists/*
+        tensorflow-model-server \
+        && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 EXPOSE 8500
 
